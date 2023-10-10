@@ -1,0 +1,293 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    cursor: auto;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.navpanel{
+    background-color:#bc0a0a;
+    height:2rem;
+    padding-top: 1rem;
+    color:white;
+}
+.socialmedialogo{
+    color: #ece9e9;
+}
+.navbar{
+height:4rem; 
+cursor:auto;
+border-bottom: 2px solid #000000;
+display: flex;
+flex-direction:row;
+align-items:center;
+}
+.navlist{
+ list-style:none;
+position:sticky;
+display: flex;
+}
+a{
+    color: #000000;
+    padding-top:10rem;
+    padding-left:5rem;
+    transition:all;
+    text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+font-weight:900px;
+font-size: larger;
+color:#bc0a0a;
+}
+#about{
+    padding-left:15rem;
+   }
+.main{
+    height:60%;
+    width:100%;
+    background-image: url(myrestaurant2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom:2px solid rgb(255, 255, 255) ;
+}
+#searchbar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#bc0a0a;
+    padding-left:2rem;
+}
+.search{
+height:30px;
+width:250px;
+padding-top:5px;
+padding-bottom: 5px;
+}
+#main1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size:65px;
+    font-weight: 900;
+    background-color: transparent;
+    -webkit-text-stroke: 3px black;
+}
+#searchbut{
+    margin-left:5px;
+    height: 40px;
+    background-color: #087b10ec;
+    color: #ece9e9; 
+    border: none;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    text-align:center; 
+    width:55%;
+    padding-left:1rem;
+    height:10rem;
+}
+.foodimg{
+    height:18rem;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    background-image: url(tablepic.jpg);
+    background-size: cover;
+     width:40%; 
+     overflow: hidden;
+}
+.read{
+   margin-top:1%;
+   color: #000000;
+    background: linear-gradient(to right,rgba(255, 170, 0, 0.062),#bc0a0a);
+    color:#000000;
+    width:8rem;
+   margin-left:5px;
+   height: 40px;
+   border-radius:2rem;
+}
+#aboutus{
+    padding-left:2rem;
+}
+#sub-ourfood{
+    margin-top:3%;
+    padding-left:2rem;
+    margin-bottom:2%;
+}
+.ourfood{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+flex-wrap: wrap;
+}
+.box{
+width:30%;
+border:solid 1px rgb(0, 0, 0);
+height: 20rem;
+position: relative;
+overflow: hidden; 
+}
+.foodbox1 {
+    height: 20rem;
+    width: 25%;
+    background-image: url(box1.png);
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  #orderbut{
+    margin-left:5px;
+    height: 40px;
+    color: #fffdfd;
+    margin-top:1%;
+    padding-left:2px;
+    padding-right:2px;
+    border-radius: 1rem;
+    background: linear-gradient(to right,rgba(255, 170, 0, 0.062),#bc0a0a);
+  }
+  .boxbody{
+    position: absolute;
+    bottom:-100%;
+    right:0%;
+    height: 100%; 
+    width: 100%; 
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    transition: bottom 1s ease-in-out;
+  }
+  .foodbox1:hover .boxbody {
+    bottom:0;
+  }
+.foodbox2{
+    width:45%;
+    background-image: url(box2.jpg);
+    background-size: cover;
+}
+.foodbox2:hover .boxbody {
+    bottom:0;
+  }
+.foodbox3{
+    width:20%;
+    background-image: url(box3.jpg);
+    background-size: cover;  
+}
+.foodbox3:hover .boxbody {
+    bottom:0;
+  }
+.foodbox5{
+width:20%; 
+background-image: url(box5.jpg);
+background-size: cover;  
+}
+.foodbox5:hover .boxbody {
+    bottom:0;
+  }
+.foodbox4{ 
+width:45%;
+background-image: url(box4.jpg);
+background-size: cover;  
+}
+.foodbox4:hover .boxbody {
+    bottom:0;
+  }
+.foodbox6{ 
+    width:25%;
+    background-image: url(box6.jpg);
+background-size: cover; 
+}
+.foodbox6:hover .boxbody {
+    bottom:0;
+  }
+.signup{
+    margin-top:3%;
+    padding-top: 2%;
+    background-color: rgb(128, 128, 128);
+    color:#000000;
+    width:100%;
+    height:15rem;
+}
+#text-input{
+   height:3rem;
+   width:20rem;
+   margin-top: 3%;
+}
+#signupbutton{
+    background-color: gray;
+    border-radius:1rem;
+    border:2px solid black;
+    width:5rem;
+    margin-top: 3%;
+    margin-left:5px;
+    height: 40px;
+    transition: all;
+}
+#signupbutton:active{
+background-color: #000000;
+color:#ffffff
+}
+#signupid{
+    margin-left:40%;
+}
+.description2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top:3%;
+    height:10rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer{
+    width:100%;
+    height:15rem;
+    margin-top: 3%;
+    border-top:2px solid grey;
+}
+
+.footers{
+    padding-top: 3%;
+    margin-top: 2%;
+    display: flex;
+  flex-direction: row;
+}
+.footerclass{
+    align-items: center;
+    margin-right:3%;
+}
+.address{
+    text-align: center;
+    width:30%;
+}
+.name{
+    width:40%;
+    padding-left:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:#bc0a0a;
+}
+.socialmedia{
+    text-align: right;
+     width:15%;
+   padding-right: 0;
+}
